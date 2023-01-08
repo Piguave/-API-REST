@@ -69,3 +69,103 @@
 2023-01-07 22:29:57,786 [Worker-41: Launching Executing clean in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Spring Tools 4\sts-4.17.0.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
 2023-01-07 22:29:57,791 [Worker-41: Launching Executing clean in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Spring Tools 4\Construccion de una API REST\Usuario":
 2023-01-07 22:29:57,793 [Worker-41: Launching Executing clean in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2023-01-07 22:30:07,452 [Worker-42: Launching Executing install in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Spring Tools 4\Construccion de una API REST\Usuario":
+2023-01-07 22:30:07,454 [Worker-42: Launching Executing install in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-01-07 23:42:07,927 [Worker-87: Launching Executing clean in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Spring Tools 4\Construccion de una API REST\Usuario":
+2023-01-07 23:42:07,927 [Worker-87: Launching Executing clean in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2023-01-07 23:42:13,008 [Worker-87: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kruger:Usuario:0.0.1-SNAPSHOT @ C:\Spring Tools 4\Construccion de una API REST\Usuario\pom.xml.
+2023-01-07 23:42:13,484 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-07 23:42:13,531 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-07 23:42:13,541 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-07 23:42:21,165 [Worker-86: Launching Executing install in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Spring Tools 4\Construccion de una API REST\Usuario":
+2023-01-07 23:42:21,165 [Worker-86: Launching Executing install in C__Spring Tools 4_Construccion de una API REST_Usuario] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-01-07 23:42:45,507 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-07 23:42:45,537 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-07 23:42:45,544 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-07 23:47:48,079 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-07 23:47:48,089 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-07 23:47:48,094 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-07 23:49:04,466 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-07 23:49:04,514 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-07 23:49:04,519 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-07 23:50:52,347 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-07 23:50:52,358 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-07 23:50:52,365 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 00:18:48,335 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 00:18:48,357 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 00:18:48,362 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 00:19:01,830 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 00:19:01,845 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 00:19:01,855 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 00:42:17,158 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 00:42:17,174 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 00:42:17,191 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 00:54:52,815 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 00:54:52,860 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 00:54:52,867 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 00:54:53,950 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 00:54:54,046 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 00:54:54,051 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 00:55:30,159 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 00:55:30,267 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 00:55:30,271 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 00:55:31,305 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 00:55:31,328 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 00:55:31,335 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 11:41:01,902 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-08 11:44:07,015 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 11:44:07,047 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 11:44:07,057 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 11:45:07,409 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 11:45:07,420 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 11:45:07,428 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 11:45:39,864 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 11:45:39,877 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 11:45:39,884 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 11:46:51,172 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 11:46:51,181 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 11:46:51,190 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 11:49:23,171 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 11:49:23,183 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 11:49:23,190 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 11:49:25,337 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 11:49:25,347 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 11:49:25,353 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 11:52:13,185 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 11:52:13,197 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 11:52:13,203 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:04:49,313 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:04:49,345 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:04:49,353 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:08:13,709 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:08:13,725 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:08:13,733 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:08:45,950 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:08:45,963 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:08:45,970 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:21:05,488 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:21:05,500 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:21:05,505 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:21:36,299 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:21:36,313 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:21:36,320 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:24:40,748 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:24:40,760 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:24:40,766 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:24:48,709 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:24:48,718 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:24:48,724 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:39:46,372 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:39:46,408 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:39:46,436 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:41:18,393 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:41:18,405 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:41:18,416 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:41:26,134 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:41:26,154 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:41:26,161 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:41:32,660 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:41:32,671 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 12:41:32,677 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Spring Tools 4\Construccion de una API REST\Usuario\src\test\resources
+2023-01-08 12:42:30,809 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 12:42:30,822 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
