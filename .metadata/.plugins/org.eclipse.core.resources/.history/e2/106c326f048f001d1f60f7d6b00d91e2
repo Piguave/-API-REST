@@ -1,0 +1,5 @@
+package com.kruger.usuario.controller;
+
+public class UsuarioController {
+
+}

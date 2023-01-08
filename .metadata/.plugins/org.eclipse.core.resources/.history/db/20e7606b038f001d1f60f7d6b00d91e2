@@ -1,0 +1,5 @@
+package com.kruger.usuario.model.service;
+
+public class usuarioService {
+
+}
