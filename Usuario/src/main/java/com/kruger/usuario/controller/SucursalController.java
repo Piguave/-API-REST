@@ -31,12 +31,12 @@ public class SucursalController {
 		return service.findAll();
 	}
 	@RequestMapping(value = "/save", method = RequestMethod.POST, produces = "application/json")
-	public Sucursal save(@RequestBody Sucursal entity) {
+	public String save(@RequestBody Sucursal entity) {
 		return service.save(entity);
 	}
 	@RequestMapping(value = "/update/{id}", method = RequestMethod.PUT, produces = "application/json")
-	public Sucursal edit(@PathVariable Integer id, @RequestBody Sucursal entity) {
-		return service.save(entity);
+	public String edit(@PathVariable Integer id, @RequestBody Sucursal entity) {
+		return service.saveedit(entity);
 	}
 	@RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE, produces = "application/json")
 	public void delete(@PathVariable Integer id) {

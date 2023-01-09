@@ -55,7 +55,7 @@ class UsuarioApplicationTests {
 	
 	
 	@Test
-	@Order(1)
+	@Order(2)
 	public void test_2_FindAll() {
 		System.out.println("findAll Usuarios");
 		
@@ -69,5 +69,23 @@ class UsuarioApplicationTests {
 		List<Usuario> Userslist=(List<Usuario>) U_service.findAll();
 
 		assertEquals(2, Userslist.size());
+	}
+	
+	@Test
+	@Order(3)
+	public void test_3_save_User() {
+		System.out.println("save user");
+		Usuario newuser=new Usuario(1, "CEDULA", "1312729104", "Piguave Bermello Angel Ariel","arielpiguave@gmail,com","0990320062", "Manabí","Portoviejo","Crucita, sector Los Arenales", null);
+		when(U_repository.save(newuser)).thenReturn(newuser);
+		assertEquals(newuser,U_service.save(newuser));
+	}
+	
+	@Test
+	@Order(4)
+	public void test_4_save_sucursal() {
+		System.out.println("save sucursal");
+		Sucursal newadd=new Sucursal(1, "Pichincha", "Quito", "plaza central",2);
+		when(repository.save(newadd)).thenReturn(newadd);
+		assertEquals("se añádio una direccion al Usuario con el id:2 de forma exitosa",service.save(newadd));
 	}
 }

@@ -19,8 +19,14 @@ public class SucursalService {
 		return repository.findAll();
 	}
 	
-	public Sucursal save(Sucursal entity) {
-		return repository.save(entity);
+	public String save(Sucursal entity) {
+		 repository.save(entity);
+		 return "se añádio una direccion al Usuario con el id:" +entity.getUserIdFk()+" de forma exitosa";
+		
+	}
+	public String saveedit(Sucursal entity) {
+		 repository.save(entity);
+		 return "se actualizo al Usuario con el id:" +entity.getUserIdFk()+" de forma exitosa";
 		
 	}
 	public void deleteById(Integer id) {

@@ -23,8 +23,9 @@ public class usuarioService {
 		return repository.save(entity);
 		
 	}
-	public void deleteById(Integer id) {
+	public  String deleteById(Integer id) {
 		repository.deleteById(id);
+		return "Usuario con el id:" +id+" fue eliminado con exito";
 	}
 	
 	public Optional<Usuario> findById(Integer id){
@@ -38,8 +39,8 @@ public class usuarioService {
 	}
 		
 	//buscar direccion adicionales de usuarios mendiante id_user
-			public Iterable<Usuario> findBynumeroIdentificación(String numeroIdentificación){
-				return (Iterable<Usuario>) repository.findBynumeroIdentificación(numeroIdentificación);
+			public Optional<Usuario> findBynumeroIdentificación(String numeroIdentificación){
+				return (Optional<Usuario>) repository.findBynumeroIdentificación(numeroIdentificación);
 	}
 
 }
