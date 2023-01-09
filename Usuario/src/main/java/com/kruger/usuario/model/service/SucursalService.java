@@ -30,5 +30,9 @@ public class SucursalService {
 	public Optional<Sucursal> findById(Integer id){
 		return repository.findById(id);
 	}
+	//buscar direccion adicionales de usuarios mendiante id_user
+	public Iterable<Sucursal> findByuserIdFk(Integer userIdFk){
+		return (Iterable<Sucursal>) repository.findByuserIdFk(userIdFk);
+	}
 
 }

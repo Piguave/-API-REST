@@ -1,8 +1,11 @@
 package com.kruger.usuario.controller;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.kruger.usuario.model.Sucursal;
+import com.kruger.usuario.model.repository.SucursalRepository;
 import com.kruger.usuario.model.service.SucursalService;
 
 @RestController
@@ -18,6 +22,9 @@ public class SucursalController {
 	
 	@Autowired
 	SucursalService service;
+	
+	@Autowired
+	SucursalRepository repository;
 	
 	@RequestMapping(method=RequestMethod.GET, produces="application/json" )
 	public Iterable<Sucursal> findAll(){
@@ -39,5 +46,11 @@ public class SucursalController {
 	 public Optional<Sucursal> findById(@PathVariable Integer id){
 		return service.findById(id);
 	}
+	 
+		//buscar direccion adicionales de usuarios mendiante id_user
+	 @RequestMapping(value = "/showid/{userIdFk}", method = RequestMethod.GET, produces = "application/json")
+	 	public Iterable<Sucursal>  findByuserIdFk(@PathVariable Integer userIdFk){
+		return service.findByuserIdFk(userIdFk);
+		}
 
 }

@@ -56,7 +56,7 @@ public class Usuario {
     @Column(name = "direccion")
     String direccionMatriz;
     
-    @OneToMany(mappedBy = "user_id_fk")//orphanRemoval = true,targetEntity= Sucursal.class,cascade = CascadeType.ALL, 
+    @OneToMany(mappedBy = "userIdFk")//orphanRemoval = true,targetEntity= Sucursal.class,cascade = CascadeType.ALL, 
     //@JoinColumn(name = "user_id_fk",referencedColumnName = "id")
     private List<Sucursal> sucursales	= new ArrayList<Sucursal>();
   

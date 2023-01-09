@@ -1,0 +1,13 @@
+package com.kruger.usuario.model.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.kruger.usuario.model.Sucursal;
+
+public interface SucursalRepository extends CrudRepository<Sucursal, Integer>{
+	  Optional<Sucursal> findById_user(Integer user_id_fk);
+
+}
