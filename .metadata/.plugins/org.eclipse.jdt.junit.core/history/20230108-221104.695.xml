@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UsuarioApplicationTests" project="Usuario" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.kruger.usuario.UsuarioApplicationTests" time="0.009" displayname="UsuarioApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.kruger.usuario.UsuarioApplicationTests]">
+    <testcase name="test_1_FindAll" classname="com.kruger.usuario.UsuarioApplicationTests" time="0.009" displayname="test_1_FindAll()" uniqueid="[engine:junit-jupiter]/[class:com.kruger.usuario.UsuarioApplicationTests]/[method:test_1_FindAll()]"/>
+  </testsuite>
+</testrun>

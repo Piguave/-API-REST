@@ -1,0 +1,47 @@
+package com.kruger.usuario;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.kruger.usuario.model.Sucursal;
+import com.kruger.usuario.model.Usuario;
+import com.kruger.usuario.model.repository.SucursalRepository;
+import com.kruger.usuario.model.repository.usuarioRepository;
+import com.kruger.usuario.model.service.SucursalService;
+import com.kruger.usuario.model.service.usuarioService;
+
+@SpringBootTest(classes = {UsuarioApplication.class})
+class UsuarioApplicationTests {
+	
+	@Mock
+	SucursalRepository repository;
+	
+	
+	//service
+	@InjectMocks
+	SucursalService service;
+	
+	List<Sucursal> addsucursal;
+	@Test
+	@Order(1)
+	public void test_1_FindAll() {
+		System.out.println("findAll");
+		
+		List<Sucursal> myuser = new ArrayList()<Sucursal>();
+		myuser.add(new Usuario(1,"CEDULA", "1312729104", "Piguave Bermello Angel Ariel", "arielpiguave@gmail,com", "0990320062","Manabí","Portoviejo","Crucita, sector Los Arenales",null );
+		myuser.add(new Usuario( "Mauro1", "Vocale1", 38, "Juventus", "central midfielder", new BigInteger("100")));
+		
+		
+		when(repository.findAll()).thenReturn(myPlayers);
+		//List<FootBallPlayer> playerlist= new ArrayList<FootBallPlayer>();
+		List<FootBallPlayer> playerlist=(List<FootBallPlayer>) footballservi.findAll();
+
+		assertEquals(2, playerlist.size());
+	}
+}

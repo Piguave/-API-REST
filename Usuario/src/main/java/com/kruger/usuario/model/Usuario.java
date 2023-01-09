@@ -14,6 +14,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,6 +28,8 @@ import lombok.ToString;
 @Table(name="usuario")
 public class Usuario {
 	
+	
+
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -35,7 +38,7 @@ public class Usuario {
     @Column(name = "tipoIdentificación")
     String tipoIdentificación ;
 
-    @Column(name = "numeroIdentificación")
+    @Column(name = "numeroIdentificación", unique = true)
     String numeroIdentificación;
     
     @Column(name = "nombres")
@@ -56,7 +59,7 @@ public class Usuario {
     @Column(name = "direccion")
     String direccionMatriz;
     
-    @OneToMany(mappedBy = "userIdFk")//orphanRemoval = true,targetEntity= Sucursal.class,cascade = CascadeType.ALL, 
+    @OneToMany(mappedBy = "userIdFk" ,cascade = CascadeType.ALL)//orphanRemoval = true,targetEntity= Sucursal.class,cascade = CascadeType.ALL, 
     //@JoinColumn(name = "user_id_fk",referencedColumnName = "id")
     private List<Sucursal> sucursales	= new ArrayList<Sucursal>();
   

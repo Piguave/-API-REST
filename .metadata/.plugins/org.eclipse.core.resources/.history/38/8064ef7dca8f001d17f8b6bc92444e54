@@ -1,0 +1,26 @@
+package com.kruger.usuario;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.kruger.usuario.model.repository.usuarioRepository;
+import com.kruger.usuario.model.service.usuarioService;
+
+@SpringBootTest(classes = {UsuarioApplication.class})
+class UsuarioApplicationTests {
+	
+	@Mock
+	usuarioRepository repository;
+	
+	
+	//service
+	@InjectMocks
+	usuarioService service;
+	
+	@Test
+	void contextLoads() {
+	}
+
+}
